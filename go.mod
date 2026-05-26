@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/container-storage-interface/spec v1.12.0
-	github.com/kubernetes-csi/csi-lib-utils v0.9.0
+	github.com/kubernetes-csi/csi-lib-utils v0.24.0
 	github.com/onsi/ginkgo/v2 v2.28.1
 	github.com/onsi/gomega v1.39.1
 	github.com/pborman/uuid v1.2.1
@@ -12,9 +12,9 @@ require (
 	go.uber.org/goleak v1.3.0
 	google.golang.org/grpc v1.80.0
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
-	k8s.io/api v0.32.10
+	k8s.io/api v0.36.0
 	k8s.io/apimachinery v0.36.1
-	k8s.io/client-go v0.32.10
+	k8s.io/client-go v0.36.0
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/kubernetes v1.36.1
 	k8s.io/mount-utils v0.32.0
@@ -84,7 +84,7 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
-	github.com/go-openapi/jsonreference v0.20.2 // indirect
+	github.com/go-openapi/jsonreference v0.21.0 // indirect
 	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -100,7 +100,7 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/moby/spdystream v0.5.1 // indirect
 	github.com/moby/sys/mountinfo v0.7.2 // indirect
 	github.com/moby/sys/userns v0.1.0 // indirect
@@ -151,7 +151,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.0.0 // indirect
 	k8s.io/apiserver v0.32.10 // indirect
 	k8s.io/cloud-provider v0.32.10 // indirect
-	k8s.io/component-base v0.32.10 // indirect
+	k8s.io/component-base v0.36.0 // indirect
 	k8s.io/component-helpers v0.32.10 // indirect
 	k8s.io/controller-manager v0.32.10 // indirect
 	k8s.io/kms v0.32.10 // indirect
